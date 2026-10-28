@@ -1,8 +1,7 @@
-
 import os
 
-DEEPSHI_API_KEY = os.environ.get("sk-bf-05bd4acc-6816-4b0b-98bf-f27f27c7c8f7", "").strip()
-LOCAL_BRIDGE_KEY = os.environ.get("deepshi-local-bridge-key-8765", "")
+DEEPSHI_API_KEY = os.environ.get("DEEPSHI_API_KEY", "").strip()
+LOCAL_BRIDGE_KEY = os.environ.get("LOCAL_BRIDGE_KEY", "")
 DEFAULT_MODEL = os.environ.get("DEFAULT_MODEL", "deepshi-3.0")
 
 HOST = "0.0.0.0"
